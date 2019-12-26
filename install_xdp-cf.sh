@@ -19,7 +19,7 @@ function install_xdp() {
 }
 
 function main() {
-  check_os_version
+  #check_os_version
   make_xdp
   install_xdp
 
